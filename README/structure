@@ -1,0 +1,24 @@
+path/to/repo
+└───bin
+│   │   script1
+│   │   script2
+│
+└───py_modules
+│   │   modname1.py
+│   │   modname2.py
+│
+└───packages
+│	└───pkgname1
+│		 └───data
+│		 │	│   any_not_python_file.png
+│		 │	│   any_not_python_file.txt
+│		 │
+│		 │	__init__.py
+│		 │	filename.py
+│
+│ 	dependency_links.txt
+│ 	description.txt
+│ 	entry_points.txt
+│ 	keywords.txt
+│ 	requirements.txt
+│ 	version.txt

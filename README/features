@@ -1,0 +1,2 @@
+*	**native** - based on distutils/setuptools
+*	**setup() auto arguments** - **files** or **environment variables**
