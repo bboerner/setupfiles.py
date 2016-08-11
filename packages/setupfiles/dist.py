@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import distutils
+#from distutils import dist
 
 cwd = os.getcwd()
 
@@ -22,8 +23,8 @@ def readlines(path):
         return lines(read)
     return []
 
-
 class DistributionMetadata(distutils.dist.DistributionMetadata):
+#class DistributionMetadata(dist.DistributionMetadata):
     # todo: entry_points
     def get_name(self):
         # return self.name or "UNKNOWN"
@@ -109,14 +110,17 @@ class DistributionMetadata(distutils.dist.DistributionMetadata):
     def get_classifiers(self):
         # return self.classifiers or []
         if self.classifiers:
-            return self.classifiers
+            return sorted(self.classifiers)
+        classifiers = []
         path = os.path.join(cwd,"classifiers.txt")
         if os.path.exists(path):
-            return readlines(path)
+            classifiers = readlines(path)
         key = "CLASSIFIERS"
         if key in os.environ and os.environ[key]:
-            return os.environ[key].splitlines()
-        return []
+            classifiers+=os.environ[key].splitlines()
+        classifiers = filter(None,classifiers) # remove empty
+        classifiers = list(set(classifiers)) # unique
+        return list(sorted(classifiers))
 
     def get_download_url(self):
         # return self.download_url or "UNKNOWN"

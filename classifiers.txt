@@ -1,0 +1,2 @@
+Framework :: Setuptools Plugin
+Topic :: System :: Installation/Setup
