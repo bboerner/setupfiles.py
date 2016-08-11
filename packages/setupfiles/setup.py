@@ -2,7 +2,6 @@
 import distutils
 import os
 import sys
-import pkg_resources
 from setupfiles.attrs import packages, py_modules, scripts
 
 __all__ = ["setup"]

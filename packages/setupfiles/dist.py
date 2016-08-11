@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import distutils
-#from distutils import dist
 
 cwd = os.getcwd()
 

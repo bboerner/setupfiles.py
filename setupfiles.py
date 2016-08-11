@@ -17,4 +17,4 @@ del sys.modules["setupfiles"]
 import setupfiles # nopep8
 
 def setup(**kwargs):
-    setupfiles.setup("setupfiles",**kwargs)
+    setupfiles.setup(name="setupfiles",**kwargs)
