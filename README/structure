@@ -8,7 +8,7 @@ path/to/repo
 │   │   modname2.py
 │
 └───packages
-│	└───pkgname1
+│   └───pkgname1
 │		 └───data
 │		 │	│   any_not_python_file.png
 │		 │	│   any_not_python_file.txt
