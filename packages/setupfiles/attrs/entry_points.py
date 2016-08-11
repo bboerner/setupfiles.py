@@ -10,3 +10,5 @@ path = os.path.join(cwd, "entry_points.txt")
 if os.path.exists(path) and os.path.isfile(path):
     entry_points =  open(path).read().splitlines()
 
+if os.environ.get("ENTRY_POINTS",None):
+    entry_points+=os.environ.get("ENTRY_POINTS").splitlines()

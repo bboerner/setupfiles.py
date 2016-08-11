@@ -36,7 +36,7 @@ README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and
 ```
 
 #### Environment variables
-*	$NAME, $DESCRIPTION, $KEYWORDS, $LONG_DESCRIPTION, $VERSION
+*	$NAME, $DESCRIPTION, $KEYWORDS, $LONG_DESCRIPTION, $VERSION, $DEPENDENCY_LINKS, $ENTRY_POINTS, $INSTALL_REQUIRES
 
 ```
 export VARIABLE="$VARIABLE"
@@ -81,8 +81,6 @@ path/to/repo
 │ 	requirements.txt
 │ 	version.txt
 ```
-
-#### TODO
 
 Feedback
 [![GitHub issues](https://img.shields.io/github/issues/russianidiot/setupfiles.py.svg)](https://github.com/russianidiot/setupfiles.py/issues)
