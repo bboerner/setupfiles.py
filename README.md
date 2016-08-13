@@ -68,8 +68,8 @@ path/to/repo
 └───packages
 │   └───pkgname1
 │       └───data
-│       │   │   any_not_python_file.png
-│       │   │   any_not_python_file.txt
+│       │   │   any_file.png
+│       │   │   any_file.txt
 │       │
 │       │   __init__.py
 │       │   filename.py
