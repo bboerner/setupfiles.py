@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
-import distutils
+# import distutils
+from distutils import dist
 
 cwd = os.getcwd()
 
@@ -22,8 +23,8 @@ def readlines(path):
         return lines(read)
     return []
 
-class DistributionMetadata(distutils.dist.DistributionMetadata):
-#class DistributionMetadata(dist.DistributionMetadata):
+# class DistributionMetadata(distutils.dist.DistributionMetadata):
+class DistributionMetadata(dist.DistributionMetadata):
     # todo: entry_points
     def get_name(self):
         # return self.name or "UNKNOWN"
