@@ -23,4 +23,3 @@ for filename in filenames:
 
 if os.environ.get("INSTALL_REQUIRES",None):
     install_requires+=os.environ.get("INSTALL_REQUIRES").splitlines()
-

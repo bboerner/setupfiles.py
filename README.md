@@ -15,7 +15,7 @@ README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and
 [![semaphoreci.com](https://semaphoreci.com/api/v1/russianidiot/setupfiles-py/branches/master/shields_badge.svg)](https://semaphoreci.com/russianidiot/setupfiles-py)
 [![shippable.com](https://api.shippable.com/projects/57a8ea795aa7620d0090f095/badge?branch=master)](https://app.shippable.com/projects/57a8ea795aa7620d0090f095/status/)
 [![travis-ci.org](https://api.travis-ci.org/russianidiot/setupfiles.py.svg)](https://travis-ci.org/russianidiot/setupfiles.py)
-[![wercker.com](https://app.wercker.com/status/91a89abae3dce961ed671d94f4d9de65/s/master)](https://app.wercker.com/#applications/57a8fd55c248330100ad2c7a)
+[![wercker.com](https://app.wercker.com/status/91a89abae3dce961ed671d94f4d9de65/s/master)](https://app.wercker.com/russianidiot/setupfiles.py/)
 
 <p align="center">
     <b>distutils/setuptools replacement</b>
@@ -86,18 +86,3 @@ Feedback
 [![GitHub issues](https://img.shields.io/github/issues/russianidiot/setupfiles.py.svg)](https://github.com/russianidiot/setupfiles.py/issues)
 [![Join the chat at https://gitter.im/russianidiot/setupfiles.py](https://badges.gitter.im/russianidiot/setupfiles.py.svg)](https://gitter.im/russianidiot/setupfiles.py)
 [![GitHub followers](https://img.shields.io/github/followers/russianidiot.svg?style=social&label=Follow)](https://github.com/russianidiot)
-
-* * *
-
-<p align="center">
-	Python packages <a href="http://russianidiot.github.io/python/">russianidiot.github.io/python/</a>
-	<img src="http://russianidiot.github.io/images/python/16.png" />
-</p>
-<p align="center">
-	cli packages <a href="http://russianidiot.github.io/cli/">russianidiot.github.io/cli/</a>
-<img src="http://russianidiot.github.io/images/cli/16.png" />
-</p>
-
-<p align="center">
-	repos list <a href="http://russianidiot.github.io/">russianidiot.github.io</a> <img src="http://russianidiot.github.io/images/star/16.png" />
-</p>
