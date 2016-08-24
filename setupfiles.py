@@ -8,12 +8,10 @@ if "setup.py" not in str(getattr(sys.modules["__main__"],"__file__",None)):
     print("SKIP: not setup.py")
     sys.exit(0)
 
-#if os.getcwd() in sys.path:
-    #sys.path.remove(os.getcwd())
-dirname = os.path.dirname(__file__)
+dirname = os.path.abspath(os.path.dirname(__file__))
 if dirname in sys.path:
     sys.path.remove(dirname)
-sys.path = list(os.path.join(dirname,"packages")) + sys.path
+sys.path.insert(0, os.path.join(dirname,"packages"))
 
 del sys.modules["setupfiles"]
 
