@@ -12,7 +12,7 @@ kwargs = dict()
 # python setup.py egg_info
 install_requires = []
 path = os.path.join(os.getcwd(), "requirements.txt")
-if os.path.exists(path):
+if os.path.exists(path) and os.path.isfile(path):
     kwargs["install_requires"] = open(path).read().splitlines()
 
 setup(**kwargs)
