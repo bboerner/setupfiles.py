@@ -1,4 +1,2 @@
 future
-pkg_resources
-setupfiles
 setuptools
