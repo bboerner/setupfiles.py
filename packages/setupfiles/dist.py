@@ -42,7 +42,7 @@ class DistributionMetadata(dist.DistributionMetadata):
         for filename in ["version.txt","version"]:
             path = os.path.join(cwd,filename)
             if read(path):
-                return read(path)
+                return read(path).strip()
         key = "VERSION"
         if os.environ.get(key,None):
             return os.environ[key]
